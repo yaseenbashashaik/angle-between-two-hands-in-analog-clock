@@ -7,6 +7,6 @@ def findAngle(h,m):
         angle = 360 - angle
     return angle
 
-h = int(input("hour:"))
+h = int(input("HOUR:"))
 m = int(input("minute:"))
 print("Angle between two hands is %d degrees"%findAngle(h,m))
